@@ -1,4 +1,5 @@
-
+HELP!
+my ai works like S***, any idea on how to improve my reward function?
 
 ```bash
 # 创建 conda 环境，将其命名为 TetrisAI，Python 版本 3.8.16
@@ -21,8 +22,3 @@ pip install setuptools==65.5.0 pip==21
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-cd ~
-mkdir .pip
-cd .pip
-touch pip.conf
-echo "[global]\nindex-url=https://pypi.tuna.tsinghua.edu.cn/simple">>pip.conf
