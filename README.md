@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-永久换源：
-cd ~
-mkdir .pip
-cd .pip
-touch pip.conf
-echo "[global]\nindex-url=https://pypi.tuna.tsinghua.edu.cn/simple">>pip.conf
 
 ```bash
 # 创建 conda 环境，将其命名为 TetrisAI，Python 版本 3.8.16
@@ -29,8 +20,9 @@ pip install setuptools==65.5.0 pip==21
 默认路径 /data/coding
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
->>>>>>> 699b2cf (first commit)
-=======
-# Tetris-ai
-Boring college school students trying to make stuff.
->>>>>>> ad9da1fbcc4ce0082521359873a3534fa661f0a4
+
+cd ~
+mkdir .pip
+cd .pip
+touch pip.conf
+echo "[global]\nindex-url=https://pypi.tuna.tsinghua.edu.cn/simple">>pip.conf
